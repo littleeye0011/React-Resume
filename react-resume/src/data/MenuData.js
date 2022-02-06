@@ -8,8 +8,8 @@ const MenuData = [
     icon: <FaFile />,
   },
   {
-    title: "Project",
-    path: "/Project",
+    title: "Portfolio",
+    path: "/Portfolio",
     icon: <FaFolderOpen />,
   },
   {

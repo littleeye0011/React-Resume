@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-title {
+  text-align: center;
+  padding-top: 55px;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.btn-switch {
+  margin: 0 5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-switch small {
+  color: black;
+  margin: auto 1rem;
+}
+
+.resume {
+  text-align: center;
+}
+
+.image-container {
+  margin: auto;
+  background-image: url("https://www.img.in.th/images/3914bb867cb198e343c944225a0956b4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 295px;
+  height: 295px;
+  border-radius: 50%;
+}

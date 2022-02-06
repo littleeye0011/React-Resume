@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-import ParticleBackground from "./ParticleBackground";
-import "./Project.css";
+import ParticleBackground from "./Background/ParticleBackground";
+import "./Portfolio.css";
 
 const Project = () => {
   const [data, setData] = useState([]);
@@ -19,7 +19,7 @@ const Project = () => {
       <div className="particles-js">
         <ParticleBackground />
       </div>
-      <h3 className="page-title">Project</h3>
+      <h3 className="page-title">Portfolio</h3>
       <div className="card-container">
         {data.map((val, idx) => (
           <a

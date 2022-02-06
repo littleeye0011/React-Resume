@@ -4,7 +4,7 @@
   font-family: "Kanit", sans-serif;
 }
 .nav-menu {
-  background: #373764;
+  background: #374364;
   width: 250px;
   justify-content: center;
   position: fixed;
@@ -26,7 +26,7 @@
 .navbar {
   position: fixed;
   top: 0;
-  background: #373764;
+  background: #374364;
   width: 100%;
   display: flex;
   height: 80px;
@@ -35,7 +35,7 @@
 }
 
 .navbar-toggle {
-  background: #373764;
+  background: #374364;
   width: 100%;
   height: 60px;
   display: flex;
@@ -90,7 +90,7 @@ span {
   top: 0;
   width: 100%;
   height: 110%;
-  background-color: #b4a8df;
+  background-color: #a2b3ff;
   background-repeat: repeat;
   background-size: 100%;
   background-position: 100%;

@@ -1,4 +1,4 @@
-import ParticleBackground from "./ParticleBackground";
+import ParticleBackground from "./Background/ParticleBackground";
 
 const Contact = () => {
   return (
