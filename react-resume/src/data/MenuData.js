@@ -1,20 +1,21 @@
-import { FaUserAlt, FaHome } from "react-icons/fa";
+import { FaFile, FaFolderOpen } from "react-icons/fa";
+import { RiContactsFill } from "react-icons/ri";
 
 const MenuData = [
   {
-    title: "หน้าแรก",
+    title: "Resume",
     path: "/",
-    icon: <FaHome />,
+    icon: <FaFile />,
   },
   {
-    title: "สมาชิก",
-    path: "/Member",
-    icon: <FaUserAlt />,
+    title: "Project",
+    path: "/Project",
+    icon: <FaFolderOpen />,
   },
   {
-    title: "สมาชิก",
-    path: "/Product",
-    icon: <FaUserAlt />,
+    title: "Contact",
+    path: "/Contact",
+    icon: <RiContactsFill />,
   },
 ];
 
