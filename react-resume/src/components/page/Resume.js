@@ -3,6 +3,7 @@ import Switch from "react-switch";
 import ResumeTH from "./ResumeLanguage/ResumeTH";
 import ResumeEN from "./ResumeLanguage/ResumeEN";
 import "./Resume.css";
+import Footer from "../Footer";
 import { useState } from "react";
 
 const Resume = () => {
@@ -43,6 +44,9 @@ const Resume = () => {
       </div>
 
       <div className="resume-container">{showLanguage}</div>
+      <div className="footer-resume">
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -7,6 +7,10 @@ const ResumeEN = () => {
       </div>
       <div className="main-container">
         <div className="education">
+          <div className="title">DATE OF BIRTH</div>
+          <ul>
+            <li>20 August 1995</li>
+          </ul>
           <div className="title">EDUCATION</div>
           <ul>
             <li className="h1">Chiang Rai Technical College</li>
@@ -22,6 +26,10 @@ const ResumeEN = () => {
               <li>Bachelor of Engineering | 25 February 2018</li>
               <li>Electrical Engineering | 2.93</li>
             </ul>
+          </ul>
+          <div className="title">INTEREST AND ACTIVITIES</div>
+          <ul>
+            <li>Jogging, Play Games , Play Guitar , Coding , Read a book</li>
           </ul>
         </div>
         <div className="EXP">

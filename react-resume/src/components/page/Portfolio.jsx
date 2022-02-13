@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 import ParticleBackground from "./Background/ParticleBackground";
+import Footer from "../Footer";
 import "./Portfolio.css";
 
 const Project = () => {
@@ -31,10 +32,13 @@ const Project = () => {
           >
             <div className="card-title">{val.name}</div>
             <img src={val.image} alt={val.name} />
-            <small>{val.url}</small>
+            <small className="url">{val.url}</small>
             <div className="light-bar"></div>
           </a>
         ))}
+      </div>
+      <div className="footer-port-contact">
+        <Footer />
       </div>
     </div>
   );

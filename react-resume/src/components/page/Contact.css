@@ -1,0 +1,42 @@
+.contact-container {
+  display: flex;
+  margin: 2rem auto;
+  flex-direction: column;
+  width: 450px;
+}
+
+.contact-card {
+  display: flex;
+  height: 110px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon svg {
+  color: black;
+  width: 45px;
+  height: 45px;
+}
+
+.main-list {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.frist-list {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.list li {
+  list-style: none;
+}

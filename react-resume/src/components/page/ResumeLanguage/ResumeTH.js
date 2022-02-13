@@ -7,6 +7,10 @@ const ResumeTH = () => {
       </div>
       <div className="main-container">
         <div className="education">
+          <div className="title">วัน / เดือน / ปี เกิด</div>
+          <ul>
+            <li>20 สิงหาคม 2538</li>
+          </ul>
           <div className="title">การศึกษา</div>
           <ul>
             <li className="h1">วิทยาลัยเทคนิคเชียงราย</li>
@@ -20,6 +24,10 @@ const ResumeTH = () => {
               <li>ปริญญาตรี ประวิศวกรรมศาสตรบัณฑิต | 25 กุมภาพันธ์ 2561</li>
               <li>วิศวกรรมไฟฟ้า | 2.93</li>
             </ul>
+          </ul>
+          <div className="title">ความสนใจ งานอดิเรก</div>
+          <ul>
+            <li>วิ่ง, เล่นเกม , เล่นกีต้าร์ , เขียนโค้ด , อ่านหนังสือ</li>
           </ul>
         </div>
         <div className="EXP">
@@ -66,7 +74,7 @@ const ResumeTH = () => {
         </div>
       </div>
       <div className="skill">
-        <div className="title-skill">ทักษะ</div>
+        <div className="title-skill">ความสามารถ</div>
 
         <div className="logo">
           <div>
