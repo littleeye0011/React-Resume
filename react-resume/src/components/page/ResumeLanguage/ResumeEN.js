@@ -5,7 +5,7 @@ const ResumeEN = () => {
         <div className="image-container"></div>
         <h1>CHITDANAI KHAMTUM</h1>
       </div>
-      <div className="main-container">
+      <div className="resume-container">
         <div className="education">
           <div className="title">DATE OF BIRTH</div>
           <ul>
@@ -16,7 +16,7 @@ const ResumeEN = () => {
             <li className="h1">Chiang Rai Technical College</li>
             <ul>
               <li>Vocational certificate | 27 March 2014</li>
-              <li>Electronics | 3.46</li>
+              <li>Electronics | 3.46 GPA</li>
             </ul>
 
             <li className="h1">
@@ -24,33 +24,30 @@ const ResumeEN = () => {
             </li>
             <ul>
               <li>Bachelor of Engineering | 25 February 2018</li>
-              <li>Electrical Engineering | 2.93</li>
+              <li>Electrical Engineering | 2.93 GPA</li>
             </ul>
           </ul>
-          <div className="title">INTEREST AND ACTIVITIES</div>
+          <div className="title">INTERESTS AND ACTIVITIES</div>
           <ul>
-            <li>Jogging, Play Games , Play Guitar , Coding , Read a book</li>
+            <li>Jogging, Play Games, Play Guitar, Coding, Reading</li>
           </ul>
         </div>
         <div className="EXP">
           <div className="title">EXPERIENCE</div>
           <ul>
-            <li className="h1">
-              Master Progression Technology Co.,Ltd. | กรกฎาคม 2561 - เมษายน
-              2562
-            </li>
+            <li className="h1">Master Progression Technology Co.,Ltd.</li>
+            <li className="h2">(July 2018 - April 2019)</li>
             <ul>
               <li>
                 <div className="position">Admin</div>
                 <ul>
-                  <li>Check documents , Prepare document , Store staff</li>
+                  <li>Documents control, Store staff</li>
                 </ul>
               </li>
             </ul>
 
-            <li className="h1">
-              Siam Global House ChiangRai | September 2019 – January 2020
-            </li>
+            <li className="h1">Siam Global House ChiangRai</li>
+            <li className="h2">(September 2019 – January 2020)</li>
             <ul>
               <li>
                 <div className="position">Technician</div>
@@ -60,14 +57,13 @@ const ResumeEN = () => {
                 </ul>
               </li>
             </ul>
-            <li className="h1">
-              ICHITAN GROUP PUBLIC COMPANY LIMITED | January 2020 - Now
-            </li>
+            <li className="h1">ICHITAN GROUP PUBLIC COMPANY LIMITED</li>
+            <li className="h2">(January 2020 - Now)</li>
             <ul>
               <li>
                 <div className="position">Technician Packing</div>
                 <ul>
-                  <li>Machine control, machine maintenance</li>
+                  <li>Machine operator, Machine maintenance</li>
                 </ul>
               </li>
             </ul>
@@ -75,7 +71,7 @@ const ResumeEN = () => {
         </div>
       </div>
       <div className="skill">
-        <div className="title-skill">SKILL</div>
+        <div className="title-skill">SKILLS</div>
 
         <div className="logo">
           <div>
@@ -86,13 +82,13 @@ const ResumeEN = () => {
           </div>
           <div>
             <img
-              src="https://png2.cleanpng.com/sh/3914a2f5fb8cea4327432c0ab4d7f1c0/L0KzQYm3U8MxN5J5iZH0aYP2gLBuTfh1dZ0yhNHwbz36f8PzhL14cZVqReluYj3mf7B6jCJ1caZyRdV4ZHnxd368gfJmbGE5UNZrOUi4RnA6WMExPmQ1SKMAMkK3RYW9UMA5QWo6RuJ3Zx==/kisspng-html-logo-world-wide-web-consortium-coding-5abed048db9856.3810630015224546008995.png"
+              src="https://www.img.in.th/images/9c7ad2bd742630378d8b2ea2222680fc.png"
               alt=""
             />
           </div>
           <div>
             <img
-              src="https://png2.cleanpng.com/sh/d8fe3c79534852c8a2c378796c556a34/L0KzQYm3U8MyN6VxiZH0aYP2gLBuTgdmal5pfehubHBzfbb1lL1kaaRoedZybnewg8XCjPUue5lqfeZ8LXj3fb20jP9od15oReV9b4LwPYbog8A2PpVpS6o9MnK8Pom9V8g0OmQ9Sac7MkW4RIaBWcI0OGYziNDw/kisspng-web-development-cascading-style-sheets-html-logo-c-storm-5ac056dd3842b9.8678323815225545892305.png"
+              src="https://www.img.in.th/images/291340dd4aeec13ddf0d65e02c085276.png"
               alt=""
             />
           </div>

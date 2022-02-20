@@ -15,6 +15,9 @@ const Navigation = () => {
             <FaBars onClick={toggleMenu} />
           </Link>
         </div>
+        <div className="nav-title">
+          <Link to="/">My Portfolio</Link>
+        </div>
       </div>
       <nav className={showMenu ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-bar-item" onClick={toggleMenu}>

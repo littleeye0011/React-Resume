@@ -4,7 +4,7 @@ import { RiContactsFill } from "react-icons/ri";
 const MenuData = [
   {
     title: "Resume",
-    path: "/",
+    path: "/Resume",
     icon: <FaFile />,
   },
   {
