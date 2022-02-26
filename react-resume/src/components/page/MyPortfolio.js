@@ -10,15 +10,15 @@ const MyPortfolio = () => {
 
       <div className="main-container">
         <article>
-          <h1>HI There !</h1>
+          <h1>Hi There !</h1>
           <h2>I AM CHITDANAI</h2>
-          <h2>My friend call me 'X'</h2>
+          <h2>My friend called me 'X'</h2>
           <hr />
         </article>
         <p>
-          I like to Codeing, I spent time to reading and watching tutorials on
-          youtube. <br />I want to develop myself,better. And I seeking a
-          position 'Front end deverloper'.
+          I like Coding. I spend time to reading and watching tutorials on
+          YouTube. <br />I want to develop myself better. I am seeking a
+          position as a 'Front End Deverloper'.
           <br /> I hope to find this job.
         </p>
       </div>

@@ -4,7 +4,7 @@ import { useState } from "react";
 import MenuData from "../data/MenuData";
 
 const Navigation = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
