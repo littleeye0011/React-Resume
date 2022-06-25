@@ -5,7 +5,7 @@ const ResumeEN = () => {
         <div className="image-container"></div>
         <h1>CHITDANAI KHAMTUM</h1>
       </div>
-      <div className="resume-container">
+      <div className="resume-content">
         <div className="education">
           <div className="title">DATE OF BIRTH</div>
           <ul>

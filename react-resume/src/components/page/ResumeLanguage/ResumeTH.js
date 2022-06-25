@@ -5,7 +5,7 @@ const ResumeTH = () => {
         <div className="image-container"></div>
         <h1>ชิตดนัย คำตุ้ม</h1>
       </div>
-      <div className="resume-container">
+      <div className="resume-content">
         <div className="education">
           <div className="title">วัน / เดือน / ปี เกิด</div>
           <ul>
