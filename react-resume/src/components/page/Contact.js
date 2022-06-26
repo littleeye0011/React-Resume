@@ -19,7 +19,7 @@ const Contact = () => {
           </div>
           <div className="main-list">
             <ul className="list">
-              <li className="frist-list">ที่อยู่</li>
+              <li className="first-list">ที่อยู่</li>
               <li>77 หมู่ 3 ตำบล ทรายขาว อำเภอ พาน จังหวัดเชียงราย 57120</li>
             </ul>
           </div>
@@ -30,7 +30,7 @@ const Contact = () => {
           </div>
           <div className="main-list">
             <ul className="list">
-              <li className="frist-list">เบอร์โทรศัพท์</li>
+              <li className="first-list">เบอร์โทรศัพท์</li>
               <li>082-4848537</li>
             </ul>
           </div>
@@ -41,7 +41,7 @@ const Contact = () => {
           </div>
           <div className="main-list">
             <ul className="list">
-              <li className="frist-list">E-MAIL</li>
+              <li className="first-list">E-MAIL</li>
               <li>Kh.Chitdanai@gmail.com</li>
             </ul>
           </div>

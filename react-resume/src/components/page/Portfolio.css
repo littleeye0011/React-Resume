@@ -71,6 +71,14 @@
   text-align: center;
 }
 
+.card h1 {
+  margin: 0;
+  width: 300px;
+}
+.img-loading .react-loading-skeleton {
+  height: 200px;
+}
+
 .footer-port-contact {
   position: fixed;
   bottom: 0;

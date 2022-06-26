@@ -1,8 +1,9 @@
 .contact-container {
   display: flex;
+  align-items: left;
   margin: 2rem auto;
   flex-direction: column;
-  width: 550px;
+  width: 500px;
 }
 
 .contact-card {
@@ -26,12 +27,7 @@
   align-items: center;
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-}
-
-.frist-list {
+.first-list {
   font-weight: bold;
   font-size: 1.3rem;
   margin-bottom: 5px;
@@ -39,4 +35,13 @@
 
 .list li {
   list-style: none;
+}
+
+@media only Screen and (max-width: 420px) {
+  .contact-container {
+    width: 100%;
+  }
+  .list {
+    padding: 15px;
+  }
 }

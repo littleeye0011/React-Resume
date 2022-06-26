@@ -85,10 +85,6 @@ svg {
   background: #111a66;
 }
 
-span {
-  margin-left: 15px;
-}
-
 .particles-js {
   position: fixed;
   top: 0;
@@ -107,6 +103,18 @@ span {
   font-weight: bold;
   font-size: 2.3rem;
 }
+
+.nav-title a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.nav-title {
+  margin-left: 2rem;
+  align-items: center;
+}
+
 .main-container {
   width: 820px;
   margin: 7rem auto;
@@ -120,8 +128,7 @@ span {
 }
 
 article {
-  margin: auto;
-  width: 500px;
+  padding: 0 150px;
 }
 
 .main-container h1 {
@@ -139,13 +146,47 @@ p {
   font-size: 20px;
 }
 
-.nav-title a {
-  text-decoration: none;
-  color: white;
-  font-size: 25px;
+@media only Screen and (max-width: 820px) {
+  .main-container {
+    width: 100%;
+    margin-left: 2px;
+  }
+
+  article {
+    padding: 0 100px;
+  }
+
+  .main-container h1 {
+    font-size: 52px;
+  }
+
+  .main-container h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
 
-.nav-title {
-  margin-left: 2rem;
-  align-items: center;
+@media only Screen and (max-width: 500px) {
+  .main-container {
+    font-size: 48px;
+  }
+
+  article {
+    padding: 0 60px;
+  }
+
+  .main-container h1 {
+    font-size: 50px;
+  }
+
+  .main-container h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
