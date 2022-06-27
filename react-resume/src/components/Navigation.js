@@ -4,8 +4,11 @@ import { useState } from "react";
 import MenuData from "../data/MenuData";
 
 const Navigation = () => {
-  const [showMenu, setShowMenu] = useState(true);
-  const toggleMenu = () => setShowMenu(!showMenu);
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
 
   return (
     <aside>
@@ -19,7 +22,7 @@ const Navigation = () => {
           <Link to="/">My Portfolio</Link>
         </div>
       </div>
-      <nav className={showMenu ? "nav-menu active" : "nav-menu"}>
+      <nav id="toggle" className={showMenu ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-bar-item" onClick={toggleMenu}>
           <li className="navbar-toggle">
             <Link to="#" className="menu-bar">

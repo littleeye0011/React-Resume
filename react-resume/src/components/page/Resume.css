@@ -165,4 +165,7 @@ li {
     font-weight: bold;
     margin-bottom: 3rem;
   }
+  .resume {
+    margin-bottom: 25px;
+  }
 }
