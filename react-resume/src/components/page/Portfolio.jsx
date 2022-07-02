@@ -45,7 +45,7 @@ const Project = () => {
                 target="_blank"
               >
                 <div className="card-title">{val.name}</div>
-                <img src={val.image} alt={val.name} />
+                <img src={val.image || <Skeleton />} alt={val.name} />
                 <small className="detail">{val.name || <Skeleton />}</small>
                 <small className="detail">
                   Tools : {val.tools || <Skeleton />}
