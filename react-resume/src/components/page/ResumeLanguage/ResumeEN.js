@@ -3,7 +3,7 @@ const ResumeEN = () => {
     <div className="resume">
       <div className="id">
         <div className="image-container"></div>
-        <h1>CHITDANAI KHAMTUM</h1>
+        <h1>CHITDANAI KOMTUM</h1>
       </div>
       <div className="resume-content">
         <div className="education">
