@@ -58,7 +58,7 @@ const ResumeTH = () => {
               </li>
             </ul>
             <li className="h1">บริษัท อิชิตัน กรุ๊ป จำกัด (มหาชน)</li>
-            <li className="h2">(มกราคม 2563 - ปัจจุบัน)</li>
+            <li className="h2">(มกราคม 2563 - กันยายน 2565)</li>
             <ul>
               <li>
                 <div className="position">ช่างเทคนิค</div>

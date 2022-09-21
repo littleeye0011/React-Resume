@@ -58,7 +58,7 @@ const ResumeEN = () => {
               </li>
             </ul>
             <li className="h1">ICHITAN GROUP PUBLIC COMPANY LIMITED</li>
-            <li className="h2">(January 2020 - Now)</li>
+            <li className="h2">(January 2020 - September 2022)</li>
             <ul>
               <li>
                 <div className="position">Technician Packing</div>
